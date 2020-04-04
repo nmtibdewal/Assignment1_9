@@ -1,0 +1,57 @@
+body 
+{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+#head
+{
+	font-family:"Script MT";
+	font-size:300%;
+	color:#000000;
+	text-decoration:bold;
+}
+#con
+{
+	font-family:"MS UI Gothic";
+	font-size:200%;
+	color:#000000;
+}
+#nav
+{
+	width: 100%;
+	background-color: yellow;
+}
+#a
+{
+	font-family:"MS UI Gothic";
+	font-size: 200%;
+	color:#000000;
+}
+ul 
+{
+	list-style-type:none;
+}
+ul li
+{
+	display:inline-block;
+	text-decoration:none;
+	color:black;
+	padding-right: 50px 
+}
+a:link, a:visited
+{
+	text-decoration: none;
+	color: black;
+}
+a:link:active, a:visited:active 
+{
+  color: black;
+}
+ul li a:hover
+{
+	border: 20px solid white;
+	transition:0.7s;
+	color:black;
+	background-color: white;
+}
